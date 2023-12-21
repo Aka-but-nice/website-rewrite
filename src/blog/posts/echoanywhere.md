@@ -45,7 +45,7 @@ iframe.contentWindow.postMessage({
   origin: "https://www.google.com/chromebook/perks/",
   serviceId: "minecraft.2023",
   serviceName: "free minecraft fr fr",
-  requestNonce: ""+Math.random(),
+  requestNonce: String(Math.random()),
   isGroupType: false,
   isDebugMode: false,
   otcCode: false
